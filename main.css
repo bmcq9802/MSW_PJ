@@ -35,6 +35,11 @@ body {
 }
 
 /* 가상요소로 float 해제 */
+.clb::after{
+    counter-reset: '';
+    display: block;
+    clear: both;
+}
 
 /* 개별 캐릭터박스 공통 */
 .cat{
@@ -49,3 +54,7 @@ body {
     margin-top: -200px;
 }
 
+.ci img{
+    width: 100;
+    height: 100;
+}
