@@ -34,4 +34,18 @@ body {
     margin: 0 auto;
 }
 
+/* 가상요소로 float 해제 */
+
 /* 개별 캐릭터박스 공통 */
+.cat{
+    width: 33%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: margin-top .8s ease-in-out;
+}
+
+.cat:hover{
+    margin-top: -200px;
+}
+
