@@ -11,15 +11,13 @@ body {
 }
 
 body {
-    background-image: url(./imeges/bg.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(./imeges/bg.jpg) no-repeat center/cover;
+    
 }
 /* 상단영역 */
 
 .logo>img {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 30px;
     height: 150px;
     opacity: 0.6;
@@ -51,10 +49,96 @@ body {
 }
 
 .cat:hover{
-    margin-top: -200px;
+    margin-top: -100px;
 }
 
 span img{
+    margin-top: 150px;
     width: 250px;
+    height: auto;
 }
+
+/* 캐릭터 두번째 이미지 숨기기 */
+span img:nth-child(2){
+    display: none;
+}
+
+.cat:hover span img:nth-child(2){
+    display: inline;
+}
+
+.cat:hover span img:first-child{
+    display: none;
+}
+
+/* 캐릭터 설명 박스 */
     
+.cs{
+    height: 0;
+    overflow: auto;
+    margin-top: 15px;
+    background: url(./imeges/bocs.jpg) no-repeat center/cover;
+    transition: height .8s ease-in-out;
+}
+
+.cat:hover .cs{
+    height: 300px;
+}
+
+h4{
+    font: bold 30px "궁서"
+}
+
+.cs p{
+    padding: 10px;
+    font: 20px/2 '궁서';
+}
+
+
+/* 하단영역 */
+.info{
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+}
+
+/* 하단링크 */
+
+ul.bm{
+    width: 720px;
+    min-width: 90%;
+
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+ul.bm::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul.bm li{
+    float: left;
+    padding: 0 5px;
+}
+
+ul.bm a {
+    color: #000;
+    text-decoration: none;
+    font: bold 20px/2 "궁서";
+}
+
+ul.bm a:hover{
+color: red;
+text-decoration: underline;
+}
+
+
+
+/* 하단로고 */
+
+#clogo{
+    text-align: center;
+}
