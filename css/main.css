@@ -36,7 +36,7 @@ body {
 
 .logo>img {
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 120px;
     height: 150px;
     opacity: 0.6;
 }
@@ -99,7 +99,7 @@ body {
     
 .cs{
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 0;
     overflow: auto;
     /* margin-top: 15px; */
