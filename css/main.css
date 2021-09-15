@@ -11,10 +11,28 @@ body {
 }
 
 body {
-    background: url(./imeges/bg.jpg) no-repeat center/cover;
-    
+    background: url(../imeges/bg.jpg) no-repeat center/cover;
 }
 /* 상단영역 */
+
+/* 스크롤바 트랙 변경하기 */
+
+.scbar::-webkit-scrollbar {
+    /* 전체 스크롤바 크기 */
+    width: 20px;
+}
+
+.scbar::-webkit-scrollbar-thumb {
+    /* 스크롤바 */
+    background-color: hotpink;
+    border-radius: 5px;
+}
+
+.scbar::-webkit-scrollbar-track {
+    /* 스크롤바 트렉 */
+    background-color: yellow;
+    border-radius: 5px;
+}
 
 .logo>img {
     margin-top: 20px;
@@ -35,7 +53,7 @@ body {
 
 /* 가상요소로 float 해제 */
 .clb::after{
-    counter-reset: '';
+    content: '';
     display: block;
     clear: both;
 }
@@ -76,16 +94,16 @@ span img:nth-child(2){
     
 .cs{
     position: absolute;
-    width: 100%;
+    width: 400px;
     height: 0;
     overflow: auto;
     margin-top: 15px;
-    background: url(./imeges/bocs.jpg) no-repeat center/cover;
+    background: url(../imeges/bocs.jpg) no-repeat center/cover;
     transition: height .8s ease-in-out;
 }
 
 .cat:hover .cs{
-    height: 300px;
+    height: 250px;
 }
 
 h4{
@@ -109,8 +127,6 @@ h4{
 
 ul.bm{
     width: 720px;
-    min-width: 90%;
-
     margin: 0 auto;
     padding: 0;
     list-style: none;
