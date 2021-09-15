@@ -72,13 +72,18 @@ body {
     margin-top: -150px;
 } */
 
-span img{
+.cat span{
+    display: block;
+    padding-bottom: 15px;
+}
+
+.cat span img{
     max-width: 100%;
     height: 350px;
 }
 
 /* 캐릭터 두번째 이미지 숨기기 */
-span img:nth-child(2){
+.cat span img:nth-child(2){
     display: none;
 }
 
@@ -94,10 +99,10 @@ span img:nth-child(2){
     
 .cs{
     position: absolute;
-    width: 400px;
+    width: 100%;
     height: 0;
     overflow: auto;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     background: url(../imeges/bocs.jpg) no-repeat center/cover;
     transition: height .8s ease-in-out;
 }
