@@ -68,9 +68,9 @@ body {
     transition: all .8s ease-in-out;
 }
 
-/* .cat:hover{
-    margin-top: -150px;
-} */
+.cat:hover{
+    margin-top: -100px;
+}
 
 .cat span{
     display: block;
@@ -108,7 +108,7 @@ body {
 }
 
 .cat:hover .cs{
-    height: 250px;
+    height: 250px;;
 }
 
 h4{
