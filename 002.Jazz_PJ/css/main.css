@@ -31,8 +31,7 @@ body {
     font-size: 50px;
     line-height: 80px;
     text-align: center;
-    font-family: 'Jua', sans-serif;
-
+    font-family: 'Dancing Script', cursive;
     text-shadow: 0 0 15px magenta;
 
     animation: titAni 1s ease-in-out infinite alternate;
@@ -98,7 +97,7 @@ body {
     height: 140px;
     background-color: rgba(0, 0, 0, 0.7);
 
-    font-family: 'Cute Font', cursive;
+    font-family: 'Nanum Pen Script', cursive;
     font-size: 14px;
     line-height: 25px;
     color: #fff;
@@ -137,9 +136,9 @@ body {
 #info address{
     color: #fff;
     font-style: normal;/* 이탤릭해제 */
-    font-family: 'Cute Font', cursive;
-    font-size: 18px;
-    line-height: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    line-height: 18px;
 
     /* 안쪽여백 */
     padding-top: 20px;
@@ -153,20 +152,20 @@ body {
     float: left;
     /* 이미지는 왼쪽에 글자는 오른쪽으로 흐르게 */
     margin-right: 20px;/* 오른쪽여백 */
-    width: 60px;
+    width: 50px;
 }
 
 /* 3-2.sns버튼 */
 .sns{
     position: absolute;
-    top: 20px;
+    top: 27px;
     right: 20px;
     /* 부모는? #info */
 }
 /* sns li박스 */
 .sns li{
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     margin: 2px;
     background: url(../images/sprites_logo.png) no-repeat;
     filter: grayscale(100%);

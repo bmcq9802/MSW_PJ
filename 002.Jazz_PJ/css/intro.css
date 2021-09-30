@@ -41,7 +41,7 @@ body::after {
 #enter span {
     display: block;
     text-align: center;
-    font: bold 34px/40px 'Audiowide';
+    font: bold 34px/40px 'Lobster';
     transition: all .4s ease-out .2s;
 
 }

@@ -3,12 +3,12 @@
 /* -> 웹폰트, 공용 클래스 */
 
 /* 웹폰트 */
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Jua&family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Nanum+Pen+Script&display=swap');
 
 /* 
-    font-family: 'Cute Font', cursive;
-    font-family: 'Jua', sans-serif;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Nanum Pen Script', cursive;
 */
 
 /* IR(Image Replacement)클래스 */
