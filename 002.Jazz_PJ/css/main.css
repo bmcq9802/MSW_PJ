@@ -113,7 +113,7 @@ body {
 
 /* 첫번째 li는 영화제목 */
 .movtxt li:first-child {
-    color: aqua;
+    color:hotpink;
     font-size: 17px;
     letter-spacing: -1px;
     /* 자간 */
